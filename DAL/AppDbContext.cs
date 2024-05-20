@@ -7,8 +7,10 @@ namespace KarmaShop.DAL
 	{
         public AppDbContext(DbContextOptions<AppDbContext> dbContext):base(dbContext) { }
         
-        DbSet<Blog> Blogs { get; set; }
-        DbSet<Product> Products { get; set; }
-        DbSet<Post> Posts { get; set; }
+       public DbSet<Blog> Blogs { get; set; }
+       public DbSet<Product> Products { get; set; }
+       public DbSet<Post> Posts { get; set; }
+
+        public DbSet<Blogpost> Blogsposts { get; set; }
     }
 }

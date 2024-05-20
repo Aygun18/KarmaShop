@@ -6,5 +6,7 @@ namespace KarmaShop.ViewModels
 	{
 		public List<Blog> Blogs { get; set;}
 		public List<Post> Posts { get; set;}
+
+		public List<Blogpost> Blogsposts { get; set;}
 	}
 }
